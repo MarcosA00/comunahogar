@@ -9,7 +9,7 @@ export default function Formulary() {
             Get Involved with COMUNA HOGAR
           </h2>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Whether you're looking to make new friends, develop your skills, or
+            Whether you are looking to make new friends, develop your skills, or
             give back to the community, there are plenty of ways to get involved
             with COMUNA HOGAR.
           </p>
@@ -21,18 +21,19 @@ export default function Formulary() {
               placeholder="Enter your email"
               className="max-w-lg flex-1"
             />
-            <button className="text-secondary inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50" type="submit">Join Now</button>
+            <button
+              className="text-secondary inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+              type="submit"
+            >
+              Join Now
+            </button>
           </form>
           <p className="text-xs text-muted-foreground">
-            Sign up to stay updated on our latest events and opportunities.{" "}
-            <Link
-              href="#"
-              className="underline underline-offset-2"
-              prefetch={false}
-            >
-              Terms & Conditions
-            </Link>
+            Sign up to stay updated on our latest events and opportunities.
           </p>
+          <Link href="#" className="text-xs underline underline-offset-2">
+            Terms & Conditions
+          </Link>
         </div>
       </div>
     </section>
