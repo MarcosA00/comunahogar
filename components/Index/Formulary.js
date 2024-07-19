@@ -30,7 +30,7 @@ export default function Formulary() {
               className="underline underline-offset-2"
               prefetch={false}
             >
-              Terms &amp; Conditions
+              Terms & Conditions
             </Link>
           </p>
         </div>
