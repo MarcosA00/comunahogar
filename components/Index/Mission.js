@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Muestra from '@/public/img/img1.webp'
 
 export default function Mission() {
   return (
@@ -6,13 +7,13 @@ export default function Mission() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">
+            <div className="inline-block rounded-lg px-3 py-1 text-sm">
               Our Mission
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+            <h2 className="text-muted text-3xl font-bold tracking-tighter sm:text-5xl">
               Building a Vibrant Community
             </h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="text-muted max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               COMUNA HOGAR is a social group dedicated to fostering connections,
               promoting personal growth, and making a positive impact in our
               local community. We believe in the power of community to inspire
@@ -22,7 +23,7 @@ export default function Mission() {
         </div>
         <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
           <Image
-            src="/placeholder.svg"
+            src={ Muestra }
             width={550}
             height={310}
             alt="Mission"
