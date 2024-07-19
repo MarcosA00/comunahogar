@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Mission() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
@@ -19,7 +21,7 @@ export default function Mission() {
           </div>
         </div>
         <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-          <img
+          <Image
             src="/placeholder.svg"
             width={550}
             height={310}

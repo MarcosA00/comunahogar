@@ -1,16 +1,9 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Hero() {
   return (
     <main className="flex-1">
       <section className="w-full h-[75vh] relative overflow-hidden">
-        <Image
-          src="/placeholder.svg"
-          alt="COMUNA HOGAR"
-          fill
-          className="object-cover object-center"
-        />
         <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.2)]" />
         <div className="relative h-full flex flex-col items-center justify-center text-center text-primary-foreground space-y-6 px-4 md:px-6">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl md:text-7xl">
@@ -33,4 +26,24 @@ export default function Hero() {
       </section>
     </main>
   );
+}
+
+function XIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M18 6 6 18" />
+      <path d="m6 6 12 12" />
+    </svg>
+  )
 }
