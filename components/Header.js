@@ -9,7 +9,7 @@ export default function Header() {
           className="flex items-center justify-center"
           prefetch={false}
         >
-          <MountainIcon className="h-6 w-6" />
+          <MountainIcon className="h-6 w-6 collapse md:visible" />
           <span className="sr-only">COMUNA HOGAR</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
