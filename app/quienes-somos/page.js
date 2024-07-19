@@ -1,5 +1,5 @@
-import About from "@/Components/about/About";
-import TimeLine from "@/Components/about/TimeLine";
+import About from "@/components/about/About";
+import TimeLine from "@/components/about/TimeLine";
 
 export default function QuienesSomos() {
   return (
