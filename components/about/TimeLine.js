@@ -5,7 +5,8 @@ export default function TimeLine() {
   return (
     <>
       <section className="w-full relative">
-        <div className="w-[2px] h-40 bg-muted mx-4 md:m-[23px] xl:m-[128px] absolute"></div>
+        {/* Linea vertical */}
+        <div className="mt-[55px] md:mt-[55px] xl:mt-[55px] w-[2px] h-40 bg-muted mx-4 md:m-[23px] xl:m-[128px] absolute"></div>
 
         <div className="container px-4 md:px-6">
           <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
