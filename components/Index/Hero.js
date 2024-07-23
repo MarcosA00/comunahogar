@@ -9,9 +9,8 @@ export default function Hero() {
           <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl md:text-7xl">
             COMUNA HOGAR
           </h1>
-          <p className="max-w-[700px] text-lg md:text-xl">
-            A vibrant community of young professionals and creatives dedicated
-            to building a better future.
+          <p className="max-w-[700px] md:text-xl">
+            Una comunidad vibrante de jóvenes con una visión social y solidaria.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
             <Link
