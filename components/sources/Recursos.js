@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Component() {
   return (
-    <div className="flex-1">
+    <div className="flex p-12">
       <main className="w-[75%]">
         <div className="prose max-w-3xl">
           <h1>Lesson 3: Advanced Concepts</h1>
