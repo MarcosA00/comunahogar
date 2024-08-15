@@ -30,11 +30,11 @@ export default function Header() {
             Events
           </Link>
           <Link
-            href="#"
+            href="recursos"
             className="text-sm font-medium hover:underline underline-offset-4"
             prefetch={false}
           >
-            Get Involved
+            Recursos
           </Link>
           <Link
             href="#"
