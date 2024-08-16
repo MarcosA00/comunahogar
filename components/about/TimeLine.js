@@ -51,6 +51,7 @@ export default function TimeLine() {
                 {
                   timelineItems.map((navItem) => (
                     <TimelineItem
+                      key={ navItem.date }
                       date={ navItem.date }
                       title={ navItem.title }
                       description={ navItem.description }
