@@ -8,11 +8,10 @@ export default function Carousel() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              Gallery
+              Gallería
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Explore our gallery and get a glimpse of the vibrant community
-              events we've hosted.
+            Explora nuestra galería y echa un vistazo a las actividades en las que emos participado.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
