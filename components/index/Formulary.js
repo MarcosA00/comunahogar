@@ -18,14 +18,14 @@ export default function Formulary() {
           <form className="flex gap-2">
             <input
               type="email"
-              placeholder="Enter your email"
-              className="max-w-lg flex-1"
+              placeholder="Ingresa tu email"
+              className="bg-muted/20 placeholder:text-primary border rounded-md px-4 max-w-lg flex-1"
             />
             <button
-              className="text-secondary inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+              className="text-secondary h-10 w-60 items-center justify-center rounded-md bg-primary px-2 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
               type="submit"
             >
-              Join Now
+              Enviar correo
             </button>
           </form>
           <p className="text-xs text-muted-foreground">
