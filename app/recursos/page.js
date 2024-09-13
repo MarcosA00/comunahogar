@@ -1,6 +1,6 @@
-import Recursos from '../../components/sources/Recursos'
+import Recursos from "@/components/recursos/Recursos"
 
-export default function Sources(){
+export default function SourcesPage() {
   return (
     <Recursos />
   )

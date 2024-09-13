@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Component() {
+export default function Recursos() {
   return (
     <div className="flex p-12">
       <main className="w-[75%]">

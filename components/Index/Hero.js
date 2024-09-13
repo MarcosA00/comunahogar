@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <main className="flex-1">
       <section className="w-full h-[75vh] relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.2)]" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#83C150] to-[#34BDE7]" />
         <div className="relative h-full flex flex-col items-center justify-center text-center text-primary-foreground space-y-6 px-4 md:px-6">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl md:text-7xl">
             COMUNA HOGAR

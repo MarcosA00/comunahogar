@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Muestra from '@/public/img/img1.webp'
+import Hero from "@/public/img/hero-img.webp";
 
 export default function Mission() {
   return (
@@ -7,23 +7,20 @@ export default function Mission() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <div className="text-primary/80  inline-block rounded-lg px-3 py-1 text-lg">
-              Our Mission
-            </div>
+            <span className="text-primary/80 inline-block rounded-lg px-3 py-1 text-2xl">
+              Nuestra Misión
+            </span>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              Building a Vibrant Community
+              Construyendo una comunidad
             </h2>
             <p className="text-primary/80 max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              COMUNA HOGAR is a social group dedicated to fostering connections,
-              promoting personal growth, and making a positive impact in our
-              local community. We believe in the power of community to inspire
-              change and create a better future for all.
+            <span className="font-semibold">COMUNA HOGAR</span> es un grupo social dedicado a fomentar conexiones,<br/> promover el crecimiento personal y generar un impacto positivo.<br/> <br/> Creemos en el poder de la comunidad para inspirar cambios<br/>y crear un futuro mejor para todos.
             </p>
           </div>
         </div>
         <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
           <Image
-            src={ Muestra }
+            src={ Hero }
             width={550}
             height={310}
             alt="Mission"
@@ -33,7 +30,7 @@ export default function Mission() {
             <ul className="grid gap-6">
               <li>
                 <div className="grid gap-1">
-                  <h3 className="text-xl font-bold">Fostering Connections</h3>
+                  <h3 className="text-xl font-bold">Fomentando conexiones</h3>
                   <p className="text-primary/80 ">
                     We organize regular social events and activities to help our
                     members build meaningful relationships and expand their

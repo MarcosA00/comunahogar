@@ -16,7 +16,10 @@ module.exports = {
     colors: {
       'primary': '#18181B',
       'secondary': '#FFFFFF',
-      'muted': '#71717A'
+      'muted': '#71717A',
+      'blue': '#34BDE7',
+      'green': '#83C150',
+      'orange': '#E38825'
     }
   },
   plugins: [],
