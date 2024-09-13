@@ -1,10 +1,12 @@
+import Counter from "@/components/count/Counter";
+
 export const metadata = {
-  title: "Comuna Hogar - Contacto",
+  title: "Contacto",
   description: "Página contacto de Comuna Hogar",
 };
 
 export default function Contacto() {
   return (
-    <div>page</div>
+    <Counter />
   )
 }

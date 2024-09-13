@@ -9,7 +9,7 @@ export const ActiveLink = ({ path, text }) => {
   return (
     <Link 
       href={ path } 
-      className={ `hover:underline  mr-2 transition-all ${( pathName == path ) && ' underline' }` }>
+      className={ `hover:underline  mr-2 transition-all ${( pathName == path ) && ' underline text-orange' }` }>
           { text }
     </Link>
   )

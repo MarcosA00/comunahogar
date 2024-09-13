@@ -1,10 +1,6 @@
 import Link from "next/link"
 
-<<<<<<< HEAD
 export default function Recursos() {
-=======
-export default function Component() {
->>>>>>> 82784f21658a7c666ea8a7ff3018f82bf58f40ec
   return (
     <div className="flex p-12">
       <main className="w-[75%]">
@@ -17,11 +13,7 @@ export default function Component() {
             />
           </video>
 
-<<<<<<< HEAD
           <div className="w-[40%] border-t p-4 flex gap-2 justify-between items-center">
-=======
-          <div className="w-[40%] bg-muted border-t p-4 flex gap-2 justify-between items-center">
->>>>>>> 82784f21658a7c666ea8a7ff3018f82bf58f40ec
             <Link href="#">Previous</Link>
             <Link href="#">View All</Link>
             <Link href="#">Next</Link>
