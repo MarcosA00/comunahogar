@@ -1,10 +1,12 @@
+import Counter from "@/components/count/Counter";
+
 export const metadata = {
-  title: "Comuna Hogar - Galería",
+  title: "Galería",
   description: "Página Galería de Comuna Hogar",
 };
 
 export default function Galeria() {
   return (
-    <div>page</div>
+    <Counter />
   )
 }
