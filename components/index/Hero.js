@@ -13,13 +13,12 @@ export default function Hero() {
             Una comunidad vibrante de jóvenes con una visión social y solidaria.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
-            <Link
-              href="#"
-              className="text-secondary inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:"
+            <div
+              className="text-secondary inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 hover:cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:"
               prefetch={false}
             >
               Iniciar Sesión
-            </Link>
+            </div>
           </div>
         </div>
       </section>
