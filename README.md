@@ -1,8 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sitio Web de "Comuna Hogar"
 
-## Getting Started
+> [!IMPORTANT]
+> https://comunahogar.vercel.app/
+>
+> Este proyecto está desarrollado con `Next.js` y `Tailwind.css`, se recomienda leer la documentación oficial para mantener un buenas prácticas y un flujo de trabajo adecuado.
+> - [Next.js Documentation](https://nextjs.org/docs) - obten más información sobre las funciones y la API de Next.js.
+> - [Tailwind.css Documentation](https://tailwindcss.com/docs/installation) - obten más información sobre las funciones y la API de Tailwind.css.
 
-First, run the development server:
+## Comienzo
+
+Despues de clonar de forma local el repositorio, ejecuta el servidor de desarrollo:
 
 ```bash
 npm run dev
@@ -14,13 +21,18 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> [!TIP]
+> Abre [http://localhost:3000](http://localhost:3000) en tu navegador para visualizar los resultados.
+>
+> La página se actualiza automáticamente a medida que edites y guardes el archivo.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+> [!IMPORTANT]
+> Este proyecto utiliza next/font para optimizar y cargar automáticamente fuentes personalizadas de Google.
 
 ## Learn More
+
+> Empuja tu rama local de desarrollo para empezar a subir los cambios. 
+> 
 
 To learn more about Next.js, take a look at the following resources:
 
