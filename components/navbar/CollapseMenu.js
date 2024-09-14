@@ -18,6 +18,7 @@ export default function CollapseMenu() {
   const pathName = usePathname();
   const [status, setStatus] = useState(false);
 
+  // Función para controlar el estado del menu colapsable
   const handleClick = () => {
     if (status === false) {
       setStatus(true);
@@ -26,24 +27,23 @@ export default function CollapseMenu() {
     }
   }
 
+  // Función para actualizar el estado del menu cuando se navegue
   const handleNavigation = () => {
     setStatus(false)
   }
 
-  console.log(status);
-
   return (
     <>
-      <div className="relative">
+      <div className="relative top-4 right-5 hover:bg-muted">
         <button
-          className={`absolute top-4 ${status === true ? " invisible " : " visible "} md:invisible lg:invisible xl:invisible transition transition-all'`}
+          className={`absolute ${status === true ? " invisible " : " visible "} md:invisible lg:invisible xl:invisible transition transition-all'`}
           onClick={handleClick}
         >
           <TbMenu />
         </button>
 
         <button
-          className={`relative top-4 left-1 z-50 ${status === false ? " invisible " : " visible "} md:invisible lg:invisible xl:invisible transition transition-all'`}
+          className={`absolute z-50 ${status === false ? " invisible " : " visible "} md:invisible lg:invisible xl:invisible transition transition-all'`}
           onClick={handleClick}
         >
           <RxCross1 />
