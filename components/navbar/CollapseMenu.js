@@ -62,6 +62,7 @@ export default function CollapseMenu() {
             className={`hover:underline  mr-2 transition-all ${
               pathName == navItem.path && " underline text-orange"
             }`}
+            key={navItem.path}
           >
             {navItem.text}
           </Link>
