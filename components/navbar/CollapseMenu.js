@@ -43,7 +43,7 @@ export default function CollapseMenu() {
         </button>
 
         <button
-          className={`relative top-4 z-50 ${status === false ? " invisible " : " visible "} md:invisible lg:invisible xl:invisible transition transition-all'`}
+          className={`relative top-4 left-1 z-50 ${status === false ? " invisible " : " visible "} md:invisible lg:invisible xl:invisible transition transition-all'`}
           onClick={handleClick}
         >
           <RxCross1 />
@@ -51,7 +51,7 @@ export default function CollapseMenu() {
       </div>
 
       <div
-        className={`bg-secondary/90 w-7/12 h-[40vh] text-lg border-primary rounded-md shadow-lg -right-6 top-4 absolute flex flex-col justify-center gap-4 z-40 p-4 ${
+        className={`bg-secondary/90 w-7/12 h-[40vh] text-lg rounded-md shadow-lg -right-6 top-4 absolute flex flex-col justify-center gap-4 z-40 p-4 ${
           status === true ? " visible " : " invisible "
         } md:invisible lg:invisible xl:invisible transition transition-all'}`}
       >
