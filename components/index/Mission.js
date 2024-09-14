@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Hero from "@/public/img/hero-img.webp";
+import Hero from "@/public/img/hero-img.jpeg";
 
 export default function Mission() {
   return (

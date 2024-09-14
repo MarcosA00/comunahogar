@@ -18,6 +18,7 @@ export default function CollapseMenu() {
   const pathName = usePathname();
   const [status, setStatus] = useState(false);
 
+  // Función para controlar el estado del menu colapsable
   const handleClick = () => {
     if (status === false) {
       setStatus(true);
@@ -26,24 +27,23 @@ export default function CollapseMenu() {
     }
   }
 
+  // Función para actualizar el estado del menu cuando se navegue
   const handleNavigation = () => {
     setStatus(false)
   }
 
-  console.log(status);
-
   return (
     <>
-      <div className="relative">
+      <div className="relative top-4 right-5 hover:bg-muted">
         <button
-          className={`absolute top-4 ${status === true ? " invisible " : " visible "} md:invisible lg:invisible xl:invisible transition transition-all'`}
+          className={`absolute ${status === true ? " invisible " : " visible "} md:invisible lg:invisible xl:invisible transition transition-all'`}
           onClick={handleClick}
         >
           <TbMenu />
         </button>
 
         <button
-          className={`relative top-4 z-50 ${status === false ? " invisible " : " visible "} md:invisible lg:invisible xl:invisible transition transition-all'`}
+          className={`absolute z-50 ${status === false ? " invisible " : " visible "} md:invisible lg:invisible xl:invisible transition transition-all'`}
           onClick={handleClick}
         >
           <RxCross1 />
@@ -51,7 +51,7 @@ export default function CollapseMenu() {
       </div>
 
       <div
-        className={`bg-secondary/90 w-7/12 h-[40vh] text-lg border-primary rounded-md shadow-lg -right-6 top-4 absolute flex flex-col justify-center gap-4 z-40 p-4 ${
+        className={`bg-secondary/90 w-7/12 h-[40vh] text-lg rounded-md shadow-lg -right-6 top-4 absolute flex flex-col justify-center gap-4 z-40 p-4 ${
           status === true ? " visible " : " invisible "
         } md:invisible lg:invisible xl:invisible transition transition-all'}`}
       >
