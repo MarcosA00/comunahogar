@@ -1,4 +1,4 @@
-const endTime = new Date(2024, 8, 21, 0, 0 , 0).getTime()
+const endTime = new Date(2024, 8, 29, 12, 0 , 0).getTime()
 
 export const timeLeft = () => {
   const now = new Date
