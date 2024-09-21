@@ -19,7 +19,7 @@ export default function Counter() {
   return (
     <main className="flex-1 mt-14">
       <div className="w-full h-[640px] md:h-[540px] lg:h-[81vh] py-4 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-t from-[#83C150] to-[#34BDE7]" />
+        <div className="absolute mt-4 inset-0 bg-gradient-to-t from-[#83C150] to-[#34BDE7]" />
         <section className="relative h-full flex flex-col items-center justify-center gap-8 text-center text-primary-foreground space-y-6 px-4 md:px-6">
           <h1 className="text-4xl uppercase tracking-tighter sm:text-4xl md:text-7xl">
             Nueva sección "{newStr}"<br />

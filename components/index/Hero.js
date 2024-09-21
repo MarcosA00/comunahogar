@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <main className="flex-1 mt-14">
+    <main className="flex-1 mt-14 pt-4">
       <section className="w-full h-[75vh] relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-t from-[#83C150] to-[#34BDE7]" />
         <div className="relative h-full flex flex-col items-center justify-center text-center text-primary-foreground space-y-6 px-4 md:px-6">
