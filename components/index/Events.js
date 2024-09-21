@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Muestra from "@/public/img/img1.webp"
+import Muestra from "@/public/img/placeholder.svg"
 
 export default function Events() {
   return (

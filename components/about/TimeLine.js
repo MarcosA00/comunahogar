@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Muestra from "@/public/img/img1.webp";
+import Muestra from "@/public/img/placeholder.svg";
 import TimelineItem from "./timeline/TimelineItem";
 
 const timelineItems = [
