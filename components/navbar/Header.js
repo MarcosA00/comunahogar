@@ -16,8 +16,8 @@ const navItems = [
 export default function Header() {
   return (
     <>
-      <header className="px-4 lg:px-6 h-14">
-        <nav className="flex bg-opacity-30 md:py-1 m-2 gap-2 rounded relative">
+      <header className="fixed bg-secondary/90 z-10 px-4 lg:px-6 h-14 w-full -mt-14">
+        <nav className="flex md:py-1 m-2 gap-2 rounded relative">
           <Link
             href="/"
             className="flex items-center gap-5 justify-between"
