@@ -2,7 +2,7 @@ export default function About() {
   return (
     <>
       <section className="w-full relative mt-14 py-12 md:py-24 lg:py-32">
-        <div className="absolute mt-4 inset-0 bg-gradient-to-t from-[#83C150] to-[#34BDE7]" />
+        <div className="absolute mt-4 inset-0 bg-gradient-to-t from-[#E38825] via-[#83C150] to-[#34BDE7]" />
         <div className="relative h-full flex flex-col items-center justify-center text-center text-primary-foreground space-y-6 px-4 md:px-6">
           <div className="space-y-2">
             <div className="inline-block rounded-lg px-3 py-1 text-sm">
