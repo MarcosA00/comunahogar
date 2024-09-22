@@ -11,38 +11,46 @@ export default function Carousel() {
               Gallería
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Explora nuestra galería y echa un vistazo a las actividades en las que emos participado.
+              Explora nuestra galería y echa un vistazo a las actividades en las que emos participado.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-            <Image
-              src={ Muestra }
-              width="300"
-              height="300"
-              alt="Gallery 1"
-              className="rounded-lg object-cover"
-            />
-            <Image
-              src={ Muestra }
-              width="300"
-              height="300"
-              alt="Gallery 2"
-              className="rounded-lg object-cover"
-            />
-            <Image
-              src={ Muestra }
-              width="300"
-              height="300"
-              alt="Gallery 3"
-              className="rounded-lg object-cover"
-            />
-            <Image
-              src={ Muestra }
-              width="300"
-              height="300"
-              alt="Gallery 4"
-              className="rounded-lg object-cover"
-            />
+            <div className="rounded-xl p-1 bg-gradient-to-t from-[#E38825] via-[#83C150] to-[#34BDE7]">
+              <Image
+                src={Muestra}
+                width="300"
+                height="300"
+                alt="Gallery 1"
+                className="rounded-lg object-cover"
+              />
+            </div>
+            <div className="rounded-xl p-1 bg-gradient-to-t from-[#E38825] via-[#83C150] to-[#34BDE7]">
+              <Image
+                src={Muestra}
+                width="300"
+                height="300"
+                alt="Gallery 2"
+                className="rounded-lg object-cover"
+              />
+            </div>
+            <div className="rounded-xl p-1 bg-gradient-to-t from-[#E38825] via-[#83C150] to-[#34BDE7]">
+              <Image
+                src={Muestra}
+                width="300"
+                height="300"
+                alt="Gallery 3"
+                className="rounded-lg object-cover"
+              />
+            </div>
+            <div className="rounded-xl p-1 bg-gradient-to-t from-[#E38825] via-[#83C150] to-[#34BDE7]">
+              <Image
+                src={Muestra}
+                width="300"
+                height="300"
+                alt="Gallery 4"
+                className="rounded-lg object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>

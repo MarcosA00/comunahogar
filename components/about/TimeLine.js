@@ -42,7 +42,7 @@ export default function TimeLine() {
       <section className="w-full flex items-center justify-center">
         <div className="relative">
           {/* Linea vertical */}
-          <div className=" md:mt-[55px] xl:mt-[55px] w-[2px] lg:h-[580px] xl:h-[600px] bg-muted ml-[100px] md:-ml-[-24px] xl:ml-[24px] 2xl:-ml-[-24px] absolute"></div>
+          <div className="mt-[57px] md:mt-[55px] xl:mt-[55px] w-[2px] h-[623px] lg:h-[580px] xl:h-[600px] bg-gradient-to-t from-[#E38825] via-[#83C150] to-[#34BDE7] ml-[16px] md:-ml-[-24px] xl:ml-[24px] 2xl:-ml-[-24px] absolute"></div>
 
           <div className="container flex items-center justify-center px-4 md:px-6">
             <div className="mx-auto max-w-5xl grid gap-12 items-center justify-center py-12 lg:grid-cols-2 lg:gap-12">
@@ -51,22 +51,24 @@ export default function TimeLine() {
                 {
                   timelineItems.map((navItem) => (
                     <TimelineItem
-                      key={ navItem.date }
-                      date={ navItem.date }
-                      title={ navItem.title }
-                      description={ navItem.description }
+                      key={navItem.date}
+                      date={navItem.date}
+                      title={navItem.title}
+                      description={navItem.description}
                     />
                   ))
                 }
 
               </div>
-              <Image
-                src={Muestra}
-                width={550}
-                height={310}
-                alt="Mission"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-              />
+              <div className="rounded-xl p-1 bg-gradient-to-t from-[#E38825] via-[#83C150] to-[#34BDE7]">
+                <Image
+                  src={Muestra}
+                  width={550}
+                  height={310}
+                  alt="Mission"
+                  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+                />
+              </div>
             </div>
           </div>
         </div>
