@@ -33,8 +33,3 @@ bun dev
 
 > Empuja tu rama local de desarrollo para empezar a subir los cambios. 
 > 
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
