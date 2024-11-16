@@ -18,7 +18,7 @@ yarn dev
 # or
 pnpm dev
 # or
-bun dev
+bu
 ```
 
 > [!TIP]
@@ -33,7 +33,4 @@ bun dev
 
 > Empuja tu rama local de desarrollo para empezar a subir los cambios. 
 > 
->
->
->
 >
